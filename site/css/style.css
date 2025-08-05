@@ -274,5 +274,52 @@ footer{
     clear: both;
     width: 100%;
     height: 100px;
-    background-color: gray;
+    border-top: 2px solid #222;
+}
+
+#bottomMenu{
+    width: 100%;
+    height: 20px;
+    position: relative;
+}
+
+#sns{
+    position: absolute;
+    right: 0; /**오른쪽 끝에 배치 */
+}
+
+#sns ul li{
+    border: none; /**세로선 없이 */
+    padding: 5px;
+}
+
+#company{
+    clear: left;
+    margin-top: 25px;
+    margin-left: 20px;
+
+}
+
+p{
+    font-size: 14px;
+    color: #aaa;
+}
+
+#bottomMenu ul{
+    margin-top: 15px;
+}
+
+#bottomMenu ul li{
+    float: left; /**가로 배치 */
+    padding: 5px 20px;
+    border-right: 1px solid #ddd; /**항목 오른쪽에 세로선 */
+}
+
+#bottomMenu ul li:last-child{
+    border-right: none; /**마지막 항목에는 오른쪽 세로선 없음 */
+}
+
+#bottomMenu ul li a,#bottom ul li a:visited{
+    font-size: 15px;
+    color: #666;
 }
